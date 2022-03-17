@@ -5,13 +5,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Difusor Web</h1>
         <p>
-          Primer deploy con React de Alberto. :-
-          
+          Deploy con React de Alberto. :-          
         </p>
-        <p>
-          
+        <p>          
           Funciona al pelo !!
         </p>        
       </header>
