@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Esta App es Difusor Web.</h1>
+        <h1>Difusor Web App 2022</h1>
       </header>
     </div>
   );
