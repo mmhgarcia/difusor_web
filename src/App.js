@@ -8,10 +8,7 @@ function App() {
         <h1>Difusor Web.</h1>
         <p>
           Deploy con React de Alberto. :-          
-        </p>
-        <p>          
-          Funciona al pelo !!
-        </p>        
+        </p>       
       </header>
     </div>
   );
