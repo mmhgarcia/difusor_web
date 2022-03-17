@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Difusor Web</h1>
+        <h1>Difusor Web.</h1>
         <p>
           Deploy con React de Alberto. :-          
         </p>
