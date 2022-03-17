@@ -8,6 +8,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Primer deploy con React de Alberto. :-
+          
+        </p>
+        <p>
+          
           Funciona al pelo !!
         </p>        
       </header>
