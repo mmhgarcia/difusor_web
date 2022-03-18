@@ -1,0 +1,3 @@
+Components folder consists of individual components, 
+which are atomic in nature and doesn't compose any 
+other components.

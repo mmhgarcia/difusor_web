@@ -1,0 +1,4 @@
+project structure: https://dev.to/knitesh/react-project-folder-structure-30cm
+
+use zustand over redux !!!
+
