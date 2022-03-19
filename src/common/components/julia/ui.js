@@ -4,6 +4,7 @@ import imagen from '../../../assets/playa.jpeg';
 const Ui = () =>{
   return(
     <>
+    
       <div className={styles.padre}>
 
         <div className={styles.menu}>
