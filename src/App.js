@@ -2,17 +2,13 @@
 import './App.css';
 import Car from './common/components/Car/Car';
 import Truck from './common/components/Truck/Truck';
+import Calc from './common/components/calc/calc';
+import Ui from './common/components/julia/ui';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>ReacJS Web App 2022</h1>
-        <br /><br />
-        <Car />
-        <br /><br />
-        <Truck />
-      </header>
+      <Ui />
     </div>
   );
 }

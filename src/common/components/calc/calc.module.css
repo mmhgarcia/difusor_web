@@ -1,0 +1,21 @@
+.calcBody{
+  background-Color: cyan;
+  height: 25vh;
+  width: 15vw;
+  padding: 15px;
+}
+
+.calcTitle{
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+.formControl {
+  max-width:90%;
+}
+
+.labels{
+  font-size: 15px;
+  color: black;
+}
