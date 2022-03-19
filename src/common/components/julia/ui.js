@@ -1,4 +1,5 @@
 import styles from './ui.module.css';
+import imagen from '../../../assets/playa.jpeg';
 
 const Ui = () =>{
   return(
@@ -10,7 +11,7 @@ const Ui = () =>{
         </div>
 
         <div className={styles.imagen}>
-          <img src="../../../assets/playa.jpeg" alt="" />
+          <img src={imagen} alt="" />
         </div>
 
         <div className={styles.pie}>
