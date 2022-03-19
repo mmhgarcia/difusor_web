@@ -10,7 +10,7 @@ const Ui = () =>{
         </div>
 
         <div className={styles.imagen}>
-          <img src="./playa.jpeg" alt="" />
+          <img src="../../../assets/playa.jpeg" alt="" />
         </div>
 
         <div className={styles.pie}>
