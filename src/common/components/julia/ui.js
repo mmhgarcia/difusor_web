@@ -13,13 +13,15 @@ const Ui = () =>{
         <div className={styles.imagen}>
           <img src={imagen} alt="" />
         </div>
+        
 
         <div className={styles.pie}>
           Pie
-        </div>
-        
+        </div>        
+
 
       </div>
+      
     </>
   )
 }
