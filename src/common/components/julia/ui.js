@@ -1,7 +1,7 @@
 import styles from './ui.module.css';
 import imagen from '../../../assets/playa.jpeg';
 
-function ajuteVerticalCover(){
+function ajusteVerticalCover(){
   
   let ua = navigator.userAgent || navigator.vendor || window.opera || window.chrome;
 
