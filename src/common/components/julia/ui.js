@@ -36,11 +36,12 @@ function ajusteVerticalCover(){
 }
 */
 
+/*
 function Button(props) {
   const computedClassName = props.active ? 'active' : 'muted';
   return (<button className={computedClassName}>Click Me</button>)
 }
-
+*/
 
 function myImagen(){
 
