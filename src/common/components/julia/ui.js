@@ -58,12 +58,10 @@ function myImagen(){
 
 const Ui = () =>{
   
-  return(    
-    
-    <>
-      <myImagen />
-    </>
-  )
+  <>    
+    <myImagen />  
+  </>
+  
 }
 
 export default Ui;
