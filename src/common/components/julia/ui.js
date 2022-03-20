@@ -53,9 +53,9 @@ const Ui = () =>{
           <img src={imagen} alt="" className="clsimagen"/>  
         </div>
 
-        <Button active /> // <button class="active">Click Me</button>
+        <Button active /> 
 
-        <Button /> /
+        <Button />
 
       </div>
       
