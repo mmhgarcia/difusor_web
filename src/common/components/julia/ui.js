@@ -20,7 +20,9 @@ function ajusteVerticalCover(){
       document.documentElement.style.setProperty('--vh', `${vh}px`);
 
       //prueba
-      document.getElementsByClassName("clsimagen")[0].style.marginTop = 5 + "vh";
+      let _image = document.getElementsByClassName("clsimagen")[0];
+
+      _image.style.margin = "5vh 0 0 0";
 
       //imagen.classList.add("instagram");  
 
