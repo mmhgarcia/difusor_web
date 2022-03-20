@@ -43,6 +43,8 @@ function Button(props) {
 }
 */
 
+
+
 function myImagen(){
 
   return(
@@ -61,7 +63,7 @@ const Ui = () =>{
   <>    
     <myImagen />  
   </>
-  
+
 }
 
 export default Ui;
