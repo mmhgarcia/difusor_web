@@ -36,23 +36,14 @@ function ajuste(){
   }
 }
 
-
-/*
-function Button(props) {
-  const computedClassName = props.active ? 'active' : 'muted';
-  return (<button className={computedClassName}>Click Me</button>)
-}
-*/
-
-
 function Ui(){
 
   ajuste();
 
   return(
     <div className={styles.padre}>
-      <div className={styles.imagen} style={{ marginTop: "40vh" }}>
-        <img src={imagen} alt="" className="clsimagen instagram" />
+      <div className={styles.imagen} style={{ marginTop: "5vh" }}>
+        <img src={imagen} alt="" className="clsimagen" />
       </div>
     </div>
   )
