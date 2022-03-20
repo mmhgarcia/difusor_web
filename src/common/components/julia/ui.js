@@ -20,7 +20,7 @@ function ajusteVerticalCover(){
       document.documentElement.style.setProperty('--vh', `${vh}px`);
 
       //prueba
-      //document.getElementsByClassName("imagen")[0].style.marginTop = 5 + "vh";
+      document.getElementsByClassName("clsimagen")[0].style.marginTop = 5 + "vh";
 
       //imagen.classList.add("instagram");  
 
@@ -37,7 +37,7 @@ const Ui = () =>{
       <div className={styles.padre}>
 
         <div className={styles.imagen}>
-          <img src={imagen} alt="" className="imagen"/>  
+          <img src={imagen} alt="" className="clsimagen"/>  
         </div>
 
         {ajusteVerticalCover()}
