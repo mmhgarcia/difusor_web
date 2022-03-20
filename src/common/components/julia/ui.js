@@ -44,8 +44,8 @@ function Ui(){
 
   return(
     <div className={styles.padre}>
-      <div className={styles.imagen} style={{ marginTop: isInstagram ? "5vh" : "0vh" }}>
-        <img src={imagen} alt="" className="clsimagen" />
+      <div className={styles.imagen} >
+        <img src={imagen} alt="" className="clsimagen" style={{ marginTop: isInstagram ? "5vh" : "0vh" }} />
       </div>
     </div>
   )
