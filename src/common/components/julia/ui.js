@@ -20,8 +20,6 @@ function ajuste(){
       // Set the value in the --vh custom property to the root of the document
       document.documentElement.style.setProperty('--vh', `${vh}px`);
 
-      document.documentElement.style.setProperty('instagram', '');
-
       //prueba
       //let _image = document.getElementsByClassName("clsimagen")[0];
 
@@ -31,7 +29,7 @@ function ajuste(){
 
       //imagen.classList.add("instagram");  
 
-      styles.instagram.marginTop="70vh";
+      //styles.instagram.marginTop="70vh";
 
     }
 
@@ -53,7 +51,7 @@ function Ui(){
 
   return(
     <div className={styles.padre}>
-      <div className={styles.imagen}>
+      <div className={styles.imagen} style={{ marginTop: "40vh" }}>
         <img src={imagen} alt="" className="clsimagen instagram" />
       </div>
     </div>
