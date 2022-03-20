@@ -13,6 +13,10 @@ function adjust(){
 
     if (isInstagram) {
 
+      alert("desde instagram");
+
+      //falta validar que sea desde un mobile *******
+
       // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
       let vh = window.innerHeight * 0.01;
 
