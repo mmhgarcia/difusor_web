@@ -34,6 +34,13 @@ function ajusteVerticalCover(){
   }
 }
 
+
+function Button(props) {
+  const computedClassName = props.active ? 'active' : 'muted';
+  return (<button className={computedClassName}>Click Me</button>)
+}
+
+
 const Ui = () =>{
   
   return(    
@@ -45,7 +52,9 @@ const Ui = () =>{
           <img src={imagen} alt="" className="clsimagen"/>  
         </div>
 
-        {ajusteVerticalCover()}
+        <Button active /> // <button class="active">Click Me</button>
+
+        <Button /> /
 
       </div>
       
