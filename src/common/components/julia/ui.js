@@ -33,16 +33,18 @@ function ajuste(){
 
     }
 
+    return isInstagram;
+
   }
 }
 
 function Ui(){
 
-  ajuste();
+  let isInstagram = ajuste();
 
   return(
     <div className={styles.padre}>
-      <div className={styles.imagen} style={{ marginTop: "5vh" }}>
+      <div className={styles.imagen} style={{ marginTop: isInstagram ? "5vh" : "0vh" }}>
         <img src={imagen} alt="" className="clsimagen" />
       </div>
     </div>
