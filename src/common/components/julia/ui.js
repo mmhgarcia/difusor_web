@@ -46,8 +46,10 @@ function Button(props) {
 function myImagen(){
 
   return(
-    <div className={styles.imagen}>
-      <img src={imagen} alt="" className="clsimagen" />
+    <div className={styles.padre}>
+      <div className={styles.imagen}>
+        <img src={imagen} alt="" className="clsimagen" />
+      </div>
     </div>
   )
 
@@ -59,12 +61,7 @@ const Ui = () =>{
   return(    
     
     <>
-      <div className={styles.padre}>
-
-        <myImagen />
-
-      </div>
-      
+      <myImagen />
     </>
   )
 }
