@@ -1,6 +1,7 @@
       body{
         background-color: green;
         margin: 0 0 0 0;
+        height: 100vh;      /* a test by alberto */
       }
 
     /*
