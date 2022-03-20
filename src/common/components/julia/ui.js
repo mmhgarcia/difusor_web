@@ -11,8 +11,6 @@ function ajusteVerticalCover(){
 
     if (isInstagram) {
 
-      alert("desde instagram");
-
       //falta validar que sea desde un mobile *******
 
       // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
@@ -21,11 +19,8 @@ function ajusteVerticalCover(){
       // Set the value in the --vh custom property to the root of the document
       document.documentElement.style.setProperty('--vh', `${vh}px`);
 
-      //OK
-      document.getElementsByClassName("imagen")[0].style.border = "10px solid red";
-
       //prueba
-      document.getElementsByClassName("imagen")[0].style.marginTop = 5 + "vh";
+      //document.getElementsByClassName("imagen")[0].style.marginTop = 5 + "vh";
 
       //imagen.classList.add("instagram");  
 
