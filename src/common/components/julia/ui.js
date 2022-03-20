@@ -1,8 +1,7 @@
 import styles from './ui.module.css';
 import imagen from '../../../assets/playa.jpeg';
 
-/*
-function ajusteVerticalCover(){
+function ajuste(){
   
   let ua = navigator.userAgent || navigator.vendor || window.opera || window.chrome;
 
@@ -26,7 +25,7 @@ function ajusteVerticalCover(){
 
       //_image.style .margin = "5vh 0 0 0";
 
-      document.querySelector(".clsimagen").style.setProperty("margin", "5vh 0 0 0");
+      //document.querySelector(".clsimagen").style.setProperty("margin", "50vh 0 0 0");
 
       //imagen.classList.add("instagram");  
 
@@ -34,7 +33,7 @@ function ajusteVerticalCover(){
 
   }
 }
-*/
+
 
 /*
 function Button(props) {
@@ -46,10 +45,12 @@ function Button(props) {
 
 function Ui(){
 
+  ajuste();
+
   return(
     <div className={styles.padre}>
       <div className={styles.imagen}>
-        <img src={imagen} alt="" className="clsimagen" />
+        <img src={imagen} alt="" className="clsimagen instagram" />
       </div>
     </div>
   )
