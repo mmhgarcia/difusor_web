@@ -44,8 +44,7 @@ function Button(props) {
 */
 
 
-
-function myImagen(){
+function Ui(){
 
   return(
     <div className={styles.padre}>
@@ -54,15 +53,6 @@ function myImagen(){
       </div>
     </div>
   )
-
-}
-
-
-const Ui = () =>{
-  
-  <>    
-    <myImagen />  
-  </>
 
 }
 
