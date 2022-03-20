@@ -1,6 +1,7 @@
 import styles from './ui.module.css';
 import imagen from '../../../assets/playa.jpeg';
 
+/*
 function ajusteVerticalCover(){
   
   let ua = navigator.userAgent || navigator.vendor || window.opera || window.chrome;
@@ -33,7 +34,7 @@ function ajusteVerticalCover(){
 
   }
 }
-
+*/
 
 function Button(props) {
   const computedClassName = props.active ? 'active' : 'muted';
