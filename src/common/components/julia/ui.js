@@ -16,14 +16,16 @@ function ajusteVerticalCover(){
       // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
       let vh = window.innerHeight * 0.01;
 
-      
+
       // Set the value in the --vh custom property to the root of the document
       document.documentElement.style.setProperty('--vh', `${vh}px`);
 
       //prueba
-      let _image = document.getElementsByClassName("clsimagen")[0];
+      //let _image = document.getElementsByClassName("clsimagen")[0];
 
-      _image.style.margin = "5vh 0 0 0";
+      //_image.style .margin = "5vh 0 0 0";
+
+      document.querySelector(".clsimagen").style.setProperty("margin", "5vh 0 0 0");
 
       //imagen.classList.add("instagram");  
 
