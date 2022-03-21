@@ -1,7 +1,10 @@
 import styles from './ui.module.css';
-import imagen from '../../../assets/playa.jpeg';
+//import imagen from '../../../assets/playa.jpeg';
 
-function ajuste(){
+//let UrlImg = 'https://www.juliamicelipitta.com/imagen/CoverJulia.jpg';
+let urlimagen = 'https://www.juliamicelipitta.com/imagen/CoverJuliaMovil.png';
+
+function fromInstagram(){
   
   let ua = navigator.userAgent || navigator.vendor || window.opera || window.chrome;
 
@@ -29,12 +32,12 @@ function ajuste(){
 
 function Ui(){
 
-  let isInstagram = ajuste();
+  let isInstagram = fromInstagram();
 
   return(
     <div className={styles.padre}>
       <div className={styles.imagen} >
-        <img src={imagen} alt="" className="clsimagen" style={{ marginTop: isInstagram ? "7vh" : "0vh" }} />
+        <img src={urlimagen} alt="" className="clsimagen" style={{ marginTop: isInstagram ? "7vh" : "0vh" }} />
       </div>
     </div>
   )
