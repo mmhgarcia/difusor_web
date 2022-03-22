@@ -2,5 +2,7 @@
   color: DodgerBlue;
   padding: 40px;
   font-family: Sans-Serif;
+  display: flex;
   text-align: center;
+  justify-content: center;
 }

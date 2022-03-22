@@ -8,7 +8,7 @@ import Car from './common/components/Car/Car';
 function App() {
   return (
     <div className="App">
-    <Car />
+      <Car />
     </div>
   );
 }
