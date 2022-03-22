@@ -4,7 +4,11 @@ function Ui(){
 
   return(
     <>
-      <iframe id="myframe" src="https://www.juliamicelipitta.com" className={styles.myframe}></iframe>
+      <iframe src="https://www.youtube.com/embed/uXWycyeTeCs" 
+              width={1000} 
+              height={500} 
+              title='A youtube video on React hooks'>                
+      </iframe>
     </>    
   )
 
