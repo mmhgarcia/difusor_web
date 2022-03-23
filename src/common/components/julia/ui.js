@@ -5,9 +5,9 @@ function Ui(){
   return(
     <>
       <iframe src="https://www.youtube.com/embed/uXWycyeTeCs" 
-              marginTop="20vh"
-              width={700} 
-              height={400} 
+              margin-top="20vh"
+              width={500} 
+              height={3400} 
               title='A youtube video on React hooks'>                
       </iframe>
     </>    
