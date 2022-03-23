@@ -4,11 +4,11 @@ function Ui(){
 
   return(
     <>
-      <iframe src="https://www.youtube.com/embed/uXWycyeTeCs" 
-              margin-top="20vh"
-              width={500} 
-              height={3400} 
-              title='A youtube video on React hooks'>                
+      <iframe src="https://www.youtube.com/embed/uXWycyeTeCs"              
+              width={250} 
+              height={200} 
+              title='A youtube video on React hooks'> 
+            style={{position:relative, top: "300px",  left: "300px" }}               
       </iframe>
     </>    
   )
