@@ -1,13 +1,15 @@
 // https://blog.logrocket.com/best-practices-react-iframes/
 
-//import styles from './ui.module.css';
+//import * as containerStyles from "./container.module.css"
+import styles from './ui.module.css';
 
 function Ui(){
 
   return(
     
-    <iframe id="myframe" title="AMJAL" src="https://cnnespanol.cnn.com/" width={500} height={400}>               
-    </iframe>
+    <div className={styles.marco} style="padding: 10px">
+      <iframe src="https://www.juliamicelipitta.com" width="100%" height="100%"></iframe>
+    </div>
         
   )
 
