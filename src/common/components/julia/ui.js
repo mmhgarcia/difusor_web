@@ -7,8 +7,8 @@ function Ui(){
 
   return(
     
-    <div className={styles.marco} style="padding: 10px">
-      <iframe src="https://www.juliamicelipitta.com" width="100%" height="100%"></iframe>
+    <div className={styles.marco}>
+      <iframe title="visor" src="https://www.juliamicelipitta.com" width="100%" height="100%"></iframe>
     </div>
         
   )
