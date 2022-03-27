@@ -10,7 +10,6 @@ img{
 }
 
 .container{
-  column-count: 4;
   max-width: 1000px;
   margin: 0 auto;
   background-color: white;
